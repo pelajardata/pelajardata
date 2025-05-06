@@ -5,19 +5,19 @@ const logo = '/Logo.svg'
 
 function footer(){
     return <footer>
-    <div>
-      <img id="logo" src={logo} alt="logo" /> <h1>PELAJAR DATA</h1>
+    <div className="footer-branding">
+      <img id="logo" src={logo} alt="logo" /> 
+      <h1>PELAJAR DATA</h1>
     </div>
     <div id="contacts">
-      <a href="https://x.com/pelajardata">
-    <XIcon />
+      <a href="https://x.com/pelajardata" aria-label="Twitter">
+        <XIcon />
       </a>
-      <a href="mailto:pelajardataid@gmail.com">
-    <EmailIcon />
+      <a href="mailto:pelajardataid@gmail.com" aria-label="Email">
+        <EmailIcon />
       </a>
-
-      <a href="https://www.instagram.com/pelajardata/">
-    <InstagramIcon />
+      <a href="https://www.instagram.com/pelajardata/" aria-label="Instagram">
+        <InstagramIcon />
       </a>
     </div>
       </footer>

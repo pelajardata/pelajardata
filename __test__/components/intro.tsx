@@ -1,9 +1,11 @@
 function intro(){
 return <div id="intro">
       <section>
-        <h1 id='persuasive-text'>CONNECT AND GROW, TOGETHER <br/>
-        WITH PELAJAR DATA</h1>
-        <a href="">Join Us</a>
+        <div className="intro-copy">
+          <h1 id='persuasive-text'>Empowering Data Enthusiasts<br/>with Pelajar Data</h1>
+          <p>Unlock your potential in data science. Connect, collaborate, and grow with a vibrant community passionate about learning and sharing knowledge.</p>
+          <a href="https://discord.gg/RCbsRxEj6X">Join Our Community</a>
+        </div>
         </section>
         <svg width="854" height="480" viewBox="0 0 854 480" fill="none" xmlns="http://www.w3.org/2000/svg">
 <mask id="mask0_327_645" maskUnits="userSpaceOnUse" x="0" y="0" width="854" height="480">

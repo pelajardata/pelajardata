@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-:root {
-  font-family: 'inter';
+:root{
+  font-family: 'aloevera display';
+  
   --blue-primer: #133E87;
   --lighter-blue: #608BC1;
   --darker-blue: #050B2F;
@@ -19,6 +19,7 @@
   --font-size-xl: 32px;
   --font-size-xxl: 40px;
 }
+
 
 html, body, #root {
   height: 100%;
@@ -132,6 +133,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+
   padding: var(--spacing-lg);
   width: 100%;
   max-width: 100vw;
@@ -201,6 +203,7 @@ html, body, #root {
   text-align: center; /* Center all text by default */
 }
 
+
 .mission-center {
   width: 100%;
   text-align: center;
@@ -259,6 +262,7 @@ html, body, #root {
     transform: none;
     flex-direction: column;
     align-items: center;
+
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
@@ -307,6 +311,7 @@ html, body, #root {
   align-items: center;
   justify-content: center;
   text-align: center;
+
 }
 
 .slideshow {
@@ -495,6 +500,7 @@ footer #logo {
 
   #mission h1:not(section h1) {
     margin-left: var(--left-margin);
+
   }
 
   #why {
@@ -502,6 +508,7 @@ footer #logo {
     top: 0;
     transform: none;
     flex-direction: column;
+
     align-items: stretch;
     width: 100%;
     max-width: 100%;
@@ -522,6 +529,7 @@ footer #logo {
   #why section h1 {
     font-size: 1em;
     text-align: end;
+
   }
 
   #why section svg {
@@ -540,12 +548,14 @@ footer #logo {
   .footage {
     display: grid;
     grid-template-columns: 1fr 1fr;
+
     gap: 20px;
     margin-bottom: 20px;
   }
 
   img[alt='activity'] {
     /* height: 160px; */
+
     justify-self: center;
     border-radius: 10px;
   }

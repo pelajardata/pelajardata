@@ -1,7 +1,7 @@
 function activities(){
     const images = []
     for (let index = 1; index <= 4; index++) {
-        images.push(<img src={`public/event-online${index}.png`} alt="activity"></img>)
+        images.push(<img src={`/event-online${index}.png`} alt="activity"></img>)
         console.log(images)
     }
     return <article id="activities">

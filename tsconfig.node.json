@@ -12,6 +12,12 @@
     "isolatedModules": true,
     "moduleDetection": "force",
     "noEmit": true,
+    // "types": ["vite/client"],    
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
 
     /* Linting */
     "strict": true,

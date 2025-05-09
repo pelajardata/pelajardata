@@ -28,7 +28,6 @@
     "@mui/core-downloads-tracker": "^7.0.2",
     "@mui/icons-material": "^7.0.2",
     "@mui/material": "^7.0.2",
-<<<<<<< HEAD
     "@mui/private-theming": "^7.0.2",
     "@mui/styled-engine": "^7.0.2",
     "@mui/system": "^7.0.2",
@@ -55,13 +54,9 @@
     "react-transition-group": "^4.4.5",
     "scheduler": "^0.26.0",
     "source-map": "^0.5.7",
-    "stylis": "^4.2.0"
-=======
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "stylis": "^4.2.0",
     "react-slick": "^0.30.3",
     "slick-carousel": "^1.8.1"
->>>>>>> 128d13033e10ade240455bd26e84299ce85ef2fc
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",

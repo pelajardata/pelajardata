@@ -25,16 +25,11 @@ function activities() {
 
     const images : any[] = []
     for (let index = 1; index <= 4; index++) {
-<<<<<<< HEAD
-        images.push(<img src={`/event-online${index}.png`} alt="activity"></img>)
-        console.log(images)
-=======
         images.push(
             <div className="online-card" key={`activity-${index}`}>
                 <img src={`/event-online${index}.png`} alt="activity" style={{ width: '100%', height: '600px', objectFit: 'cover' }} />
             </div>
         )
->>>>>>> 128d13033e10ade240455bd26e84299ce85ef2fc
     }
 
     const images2: any[] = []
@@ -64,10 +59,5 @@ function activities() {
             </Slider>
         </div>
     </article>
-<<<<<<< HEAD
-    }
-export default activities;
-=======
 }
 export default activities;
->>>>>>> 128d13033e10ade240455bd26e84299ce85ef2fc

@@ -1,8 +1,4 @@
 /// <reference types="vite/client" />
-<<<<<<< HEAD
-
 declare module '*.css';
 declare module 'react-dom/client';
-=======
 declare module 'react-slick';
->>>>>>> 128d13033e10ade240455bd26e84299ce85ef2fc

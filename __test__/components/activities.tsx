@@ -1,6 +1,7 @@
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import React from 'react';
 
 function activities() {
     const sliderSettings = {
@@ -22,7 +23,7 @@ function activities() {
         ]
     };
 
-    const images = []
+    const images : any[] = []
     for (let index = 1; index <= 4; index++) {
         images.push(
             <div className="online-card" key={`activity-${index}`}>
@@ -31,7 +32,7 @@ function activities() {
         )
     }
 
-    const images2 = []
+    const images2: any[] = []
     for (let index = 1; index <= 4; index++) {
         images2.push(
             <div className="activity-card" key={`meetup-${index}`}>
@@ -44,7 +45,7 @@ function activities() {
         <div>
             <h1>Spark & Collaborate</h1>
         </div>
-        
+
         <h2>Community Meetups</h2>
         <div className="slideshow">
             <Slider {...sliderSettings}>

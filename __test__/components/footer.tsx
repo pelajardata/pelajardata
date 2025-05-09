@@ -1,6 +1,7 @@
 import XIcon from '@mui/icons-material/X';
 import EmailIcon from '@mui/icons-material/Email';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import React from 'react';
 const logo = '/Logo.svg'
 
 function footer(){

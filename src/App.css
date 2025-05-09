@@ -631,3 +631,311 @@ footer #logo {
     z-index: 2;
   }
 }
+
+#collaborate-page {
+  background: #f5f5f5;
+  /* background-image: linear-gradient(rgba(255, 255, 255, 0.7) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(255, 255, 255, 0.7) 1px, transparent 1px);
+  background-size: 20px 20px; */
+  min-height: calc(100vh - 80px);
+  padding: 60px 0;
+  position: relative;
+}
+
+#collaborate-page .contact-button {
+  display: inline-block;
+  background-color: var(--blue-primer);
+  color: #f5f5f5;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 11px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#collaborate-page .contact-button:hover {
+  background-color: #003e7e; /* slightly darker blue */
+  transform: translateY(-2px);
+}
+
+#collaborate-page nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+#collaborate-page section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#collaborate-page h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--blue-primer);
+  margin-bottom: 24px;
+  letter-spacing: -1px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
+  animation: fadeInDown 0.8s ease-out;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#collaborate-page p {
+  font-size: 1.25rem;
+  margin-bottom: 48px;
+  color: #333;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+  animation: fadeInUp 0.8s ease-out 0.2s both;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.collaborate-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  margin-bottom: 40px;
+  animation: fadeIn 1s ease-out 0.4s both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.collaborate-card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+  padding: 40px 32px;
+  flex: 1 1 280px;
+  min-width: 280px;
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 4px solid transparent;
+}
+
+.collaborate-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 0;
+  background-color: var(--accent-color);
+  transition: height 0.3s ease;
+}
+
+.collaborate-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+  border-bottom: 4px solid var(--accent-color);
+}
+
+.collaborate-card:hover::before {
+  height: 100%;
+}
+
+.collaborate-card img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 16px;
+  transition: transform 0.3s ease;
+}
+
+.collaborate-card:hover img {
+  transform: scale(1.1);
+}
+
+.collaborate-card h2 {
+  color: var(--accent-color);
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 8px 0 16px;
+  text-align: center;
+}
+
+.collaborate-card p {
+  color: #444;
+  margin-bottom: 24px;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.collaborate-card ul {
+  padding-left: 24px;
+  color: #222;
+  margin: 0;
+  align-self: flex-start;
+  width: 100%;
+}
+
+.collaborate-card li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  position: relative;
+}
+
+.collaborate-card li::before {
+  content: '';
+  position: absolute;
+  left: -20px;
+  top: 8px;
+  width: 8px;
+  height: 8px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+
+@media (max-width: 900px) {
+  #collaborate-page {
+    padding: 40px 0;
+  }
+  
+  #collaborate-page section {
+    padding: 0 16px;
+  }
+  
+  .collaborate-cards {
+    gap: 24px;
+  }
+  
+  .collaborate-card {
+    padding: 30px 24px;
+    min-width: 240px;
+    max-width: 100%;
+  }
+  
+  #collaborate-page h1 {
+    font-size: 2.2rem;
+  }
+  
+  #collaborate-page p {
+    font-size: 1.1rem;
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 600px) {
+  #collaborate-page h1 {
+    font-size: 1.8rem;
+  }
+  
+  .collaborate-card {
+    padding: 24px 20px;
+    min-width: 100%;
+  }
+  
+  .collaborate-card h2 {
+    font-size: 1.4rem;
+  }
+  
+  .collaborate-card img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .collaborate-cards {
+    gap: 20px;
+  }
+}
+
+#collaborate-cta {
+  background: var(--blue-primer);
+  color: #fff;
+  padding: 48px 0;
+  text-align: center;
+}
+
+#collaborate-cta h2 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+#collaborate-cta p {
+  font-size: 1.2rem;
+  margin-bottom: 32px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#collaborate-cta button {
+  color: var(--blue-primer);
+  background: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 16px 36px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background 0.2s;
+}
+
+#collaborate-cta button:hover {
+  background: var(--accent-color);
+}
+
+@media (max-width: 600px) {
+  #collaborate-cta {
+    padding: 32px 0;
+  }
+  #collaborate-cta h2 {
+    font-size: 1.5rem;
+  }
+  #collaborate-cta p {
+    font-size: 1rem;
+    padding: 0 12px;
+  }
+  #collaborate-cta button {
+    padding: 12px 24px;
+    font-size: 1rem;
+  }
+}

@@ -1,3 +1,4 @@
+import React from 'react';
 function mission() {
     return <article id='mission'>
         <div className="mission-center">

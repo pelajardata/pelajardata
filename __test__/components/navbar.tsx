@@ -2,6 +2,7 @@
 const logo = '/Logo.svg'
 
 import { useState } from "react";
+import React from 'react';
 
 function navbar() {
   const [menuOpen, setMenuOpen] = useState(false);

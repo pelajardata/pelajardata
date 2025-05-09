@@ -1,3 +1,4 @@
+import React from 'react';
 function intro(){
 return <div id="intro">
       <section>

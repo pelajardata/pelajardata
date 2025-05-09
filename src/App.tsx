@@ -4,7 +4,7 @@ import Intro from '../__test__/components/intro.tsx';
 import Mission from '../__test__/components/mission.tsx';
 import Activities from '../__test__/components/activities.tsx';
 import Footer from '../__test__/components/footer.tsx';
-import CollaborateCTA from '../__test__/components/collaborateCTA.tsx';
+import CollaborateCTA from '../__test__/components/CollaborateCTA.tsx';
 
 function App() {
   return (

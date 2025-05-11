@@ -1,4 +1,4 @@
-import Footer from './footer';
+import Footer from '../footer';
 import { useNavigate } from 'react-router-dom';
 const logo = '/Logo.svg'
 

@@ -1,0 +1,30 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Elements -->
+  <circle cx="400" cy="300" r="250" fill="#FFE5E5" opacity="0.5"/>
+  <circle cx="600" cy="200" r="150" fill="#E5F6FF" opacity="0.3"/>
+  
+  <!-- Decorative Elements -->
+  <path d="M100,200 Q200,100 300,200 T500,200" stroke="#FFB6C1" fill="none" stroke-width="3"/>
+  <path d="M200,400 Q300,300 400,400 T600,400" stroke="#87CEEB" fill="none" stroke-width="3"/>
+  
+  <!-- Calendar Icon -->
+  <rect x="350" y="250" width="100" height="100" rx="10" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <rect x="350" y="250" width="100" height="30" rx="10" fill="#FF6B6B" stroke="#333333" stroke-width="2"/>
+  <line x1="375" y1="300" x2="425" y2="300" stroke="#333333" stroke-width="2"/>
+  <line x1="375" y1="320" x2="425" y2="320" stroke="#333333" stroke-width="2"/>
+  
+  <!-- People Icons -->
+  <circle cx="250" cy="350" r="30" fill="#FFB6C1"/>
+  <circle cx="450" cy="350" r="30" fill="#87CEEB"/>
+  <circle cx="350" cy="400" r="30" fill="#98FB98"/>
+  
+  <!-- Connecting Lines -->
+  <line x1="250" y1="350" x2="450" y2="350" stroke="#333333" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="350" y1="400" x2="250" y2="350" stroke="#333333" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="350" y1="400" x2="450" y2="350" stroke="#333333" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Stars and Sparkles -->
+  <path d="M150,150 l10,0 l-8,8 l3,-10 l3,10 z" fill="#FFD700"/>
+  <path d="M600,300 l10,0 l-8,8 l3,-10 l3,10 z" fill="#FFD700"/>
+  <path d="M400,100 l10,0 l-8,8 l3,-10 l3,10 z" fill="#FFD700"/>
+</svg>

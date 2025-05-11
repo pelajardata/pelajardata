@@ -1,0 +1,32 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Elements -->
+  <rect x="0" y="0" width="400" height="300" fill="#F8F9FA" rx="20"/>
+  <circle cx="50" cy="50" r="30" fill="#FFE5E5" opacity="0.3"/>
+  <circle cx="350" cy="250" r="40" fill="#E5F6FF" opacity="0.2"/>
+  
+  <!-- Calendar Base -->
+  <rect x="100" y="50" width="200" height="200" fill="#FFFFFF" stroke="#333333" stroke-width="2" rx="10"/>
+  <rect x="100" y="50" width="200" height="40" fill="#FF6B6B" stroke="#333333" stroke-width="2" rx="10"/>
+  
+  <!-- Calendar Grid -->
+  <line x1="100" y1="110" x2="300" y2="110" stroke="#333333" stroke-width="1"/>
+  <line x1="100" y1="150" x2="300" y2="150" stroke="#333333" stroke-width="1"/>
+  <line x1="100" y1="190" x2="300" y2="190" stroke="#333333" stroke-width="1"/>
+  
+  <line x1="143" y1="90" x2="143" y2="250" stroke="#333333" stroke-width="1"/>
+  <line x1="186" y1="90" x2="186" y2="250" stroke="#333333" stroke-width="1"/>
+  <line x1="229" y1="90" x2="229" y2="250" stroke="#333333" stroke-width="1"/>
+  <line x1="272" y1="90" x2="272" y2="250" stroke="#333333" stroke-width="1"/>
+  
+  <!-- Highlighted Days -->
+  <circle cx="186" cy="170" r="15" fill="#87CEEB" opacity="0.5"/>
+  <circle cx="229" cy="130" r="15" fill="#98FB98" opacity="0.5"/>
+  <circle cx="143" cy="210" r="15" fill="#FFB6C1" opacity="0.5"/>
+  
+  <!-- Month Text -->
+  <text x="150" y="75" font-family="Arial" fill="#FFFFFF" font-size="20">AUGUST</text>
+  
+  <!-- Decorative Elements -->
+  <path d="M50,150 l10,0 l-8,8 l3,-10 l3,10 z" fill="#FFD700"/>
+  <path d="M350,100 l10,0 l-8,8 l3,-10 l3,10 z" fill="#FFD700"/>
+</svg>

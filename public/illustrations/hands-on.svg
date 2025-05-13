@@ -1,0 +1,31 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Elements -->
+  <rect x="0" y="0" width="400" height="300" fill="#F8F9FA" rx="20"/>
+  <circle cx="300" cy="50" r="30" fill="#FFE5E5" opacity="0.3"/>
+  <circle cx="100" cy="250" r="40" fill="#E5F6FF" opacity="0.2"/>
+  
+  <!-- Laptop/Workspace -->
+  <rect x="120" y="100" width="160" height="120" fill="#FFFFFF" stroke="#333333" stroke-width="2" rx="10"/>
+  <rect x="140" y="120" width="120" height="80" fill="#E5F6FF"/>
+  
+  <!-- Hands Typing -->
+  <path d="M160,240 Q200,220 240,240" stroke="#FF6B6B" fill="none" stroke-width="3"/>
+  <circle cx="160" cy="240" r="10" fill="#FFB6C1"/>
+  <circle cx="240" cy="240" r="10" fill="#FFB6C1"/>
+  
+  <!-- Code Elements -->
+  <text x="150" y="150" font-family="monospace" fill="#333333" font-size="10">&lt;div&gt;</text>
+  <text x="160" y="170" font-family="monospace" fill="#333333" font-size="10">  data = {}</text>
+  <text x="150" y="190" font-family="monospace" fill="#333333" font-size="10">&lt;/div&gt;</text>
+  
+  <!-- Tools Icons -->
+  <circle cx="100" cy="150" r="15" fill="#98FB98"/>
+  <text x="93" y="155" font-family="Arial" fill="#FFFFFF" font-size="14">⚙️</text>
+  
+  <circle cx="300" cy="150" r="15" fill="#87CEEB"/>
+  <text x="293" y="155" font-family="Arial" fill="#FFFFFF" font-size="14">🔧</text>
+  
+  <!-- Decorative Elements -->
+  <path d="M50,50 l10,0 l-8,8 l3,-10 l3,10 z" fill="#FFD700"/>
+  <path d="M350,250 l10,0 l-8,8 l3,-10 l3,10 z" fill="#FFD700"/>
+</svg>

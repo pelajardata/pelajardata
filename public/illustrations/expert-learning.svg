@@ -1,0 +1,23 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Shape -->
+  <rect x="0" y="0" width="400" height="300" fill="#F8F9FA" rx="20"/>
+  
+  <!-- Laptop/Screen -->
+  <rect x="100" y="80" width="200" height="140" fill="#FFFFFF" stroke="#333333" stroke-width="2" rx="10"/>
+  <rect x="120" y="100" width="160" height="100" fill="#E5F6FF" stroke="#87CEEB" stroke-width="2"/>
+  
+  <!-- Graph Elements -->
+  <path d="M140,180 L180,140 L220,160 L260,120" stroke="#FF6B6B" fill="none" stroke-width="3"/>
+  <circle cx="140" cy="180" r="4" fill="#FF6B6B"/>
+  <circle cx="180" cy="140" r="4" fill="#FF6B6B"/>
+  <circle cx="220" cy="160" r="4" fill="#FF6B6B"/>
+  <circle cx="260" cy="120" r="4" fill="#FF6B6B"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="50" cy="50" r="20" fill="#FFE5E5" opacity="0.5"/>
+  <circle cx="350" cy="250" r="25" fill="#E5F6FF" opacity="0.5"/>
+  
+  <!-- Code Symbols -->
+  <text x="140" y="130" font-family="monospace" fill="#333333" font-size="12">&lt;/&gt;</text>
+  <text x="240" y="130" font-family="monospace" fill="#333333" font-size="12">{}</text>
+</svg>

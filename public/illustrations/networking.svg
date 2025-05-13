@@ -1,0 +1,29 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Elements -->
+  <circle cx="200" cy="150" r="120" fill="#FFE5E5" opacity="0.3"/>
+  <circle cx="300" cy="100" r="50" fill="#E5F6FF" opacity="0.2"/>
+  
+  <!-- Network Nodes -->
+  <circle cx="200" cy="150" r="30" fill="#FF6B6B"/>
+  <circle cx="120" cy="100" r="25" fill="#87CEEB"/>
+  <circle cx="280" cy="100" r="25" fill="#98FB98"/>
+  <circle cx="120" cy="200" r="25" fill="#FFB6C1"/>
+  <circle cx="280" cy="200" r="25" fill="#DDA0DD"/>
+  
+  <!-- Connecting Lines -->
+  <line x1="200" y1="150" x2="120" y2="100" stroke="#333333" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="200" y1="150" x2="280" y2="100" stroke="#333333" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="200" y1="150" x2="120" y2="200" stroke="#333333" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="200" y1="150" x2="280" y2="200" stroke="#333333" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Icons inside Nodes -->
+  <text x="190" y="155" font-family="Arial" fill="#FFFFFF" font-size="20">★</text>
+  <text x="110" y="105" font-family="Arial" fill="#FFFFFF" font-size="16">◆</text>
+  <text x="270" y="105" font-family="Arial" fill="#FFFFFF" font-size="16">▲</text>
+  <text x="110" y="205" font-family="Arial" fill="#FFFFFF" font-size="16">■</text>
+  <text x="270" y="205" font-family="Arial" fill="#FFFFFF" font-size="16">●</text>
+  
+  <!-- Decorative Elements -->
+  <path d="M50,50 l10,0 l-8,8 l3,-10 l3,10 z" fill="#FFD700"/>
+  <path d="M350,250 l10,0 l-8,8 l3,-10 l3,10 z" fill="#FFD700"/>
+</svg>

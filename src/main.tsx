@@ -3,7 +3,8 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import CollaboratePage from '../__test__/components/CollaboratePage.tsx';
+import CollaboratePage from './components/page/CollaboratePage.tsx';
+import EventsPage from './components/page/EventsPage.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -11,6 +12,7 @@ createRoot(document.getElementById('root')!).render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/collaborate" element={<CollaboratePage />} />
+        <Route path="/events" element={<EventsPage />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,

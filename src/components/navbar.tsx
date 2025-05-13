@@ -15,7 +15,8 @@ function navbar() {
     <div className={"nav-center" + (menuOpen ? " open" : "") }>
       <a href="#intro" onClick={() => setMenuOpen(false)}>Join Us!</a>
       <a href="#mission" onClick={() => setMenuOpen(false)}>Mission</a>
-      <a href="#activities" onClick={() => setMenuOpen(false)}>Activities</a>
+      {/* <a href="#activities" onClick={() => setMenuOpen(false)}>Activities</a> */}
+      <a href="" onClick={() => navigate('/events')}>Events</a>
       <a href="" onClick={() => navigate('/collaborate')}>Let's Collab</a>
     </div>
       <div className="nav-right">

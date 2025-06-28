@@ -1,7 +1,13 @@
 function intro(){
 return <div id="intro">
+      <div className="blob-background">
+        <svg width="100%" height="100%" viewBox="0 0 1000 600" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,0 C150,150 350,50 500,200 C650,350 850,250 1000,400 L1000,600 L0,600 Z" fill="var(--lighter-blue)" opacity="0.2"/>
+          <path d="M0,400 C150,250 350,350 500,200 C650,50 850,150 1000,0 L1000,600 L0,600 Z" fill="var(--more-lighter-blue)" opacity="0.2"/>
+        </svg>
+      </div>
       <section>
-        <div className="intro-copy">
+        <div className="content-card intro-copy">
           <h1 id='persuasive-text'>Empowering Data Enthusiasts<br/>with Pelajar Data</h1>
           <p>Unlock your potential in data science. Connect, collaborate, and grow with a vibrant community passionate about learning and sharing knowledge.</p>
           <a href="https://discord.gg/RCbsRxEj6X">Join Our Community</a>

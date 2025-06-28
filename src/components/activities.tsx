@@ -41,13 +41,20 @@ function activities() {
     }
 
     return <article id="activities">
-        <div>
-            <h1>Spark & Collaborate</h1>
+        <div className="blob-background">
+            <svg width="100%" height="100%" viewBox="0 0 1000 600" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0,400 C150,250 350,350 500,200 C650,50 850,150 1000,0 L1000,600 L0,600 Z" fill="var(--more-lighter-blue)" opacity="0.2"/>
+                <path d="M0,0 C150,150 350,50 500,200 C650,350 850,250 1000,400 L1000,600 L0,600 Z" fill="var(--green-accent)" opacity="0.1"/>
+            </svg>
         </div>
+        <div className="content-card">
+            <div>
+                <h1>Spark & Collaborate</h1>
+            </div>
 
-        <h2>Community Meetups</h2>
-        <div className="slideshow">
-            <Slider {...sliderSettings}>
+            <h2>Community Meetups</h2>
+            <div className="slideshow">
+                <Slider {...sliderSettings}>
                 {images2}
             </Slider>
         </div>
@@ -56,6 +63,7 @@ function activities() {
             <Slider {...sliderSettings}>
                 {images}
             </Slider>
+        </div>
         </div>
     </article>
 }

@@ -10,13 +10,14 @@ import CollaborateCTA from './components/CollaborateCTA.tsx';
 function App() {
   return (
     <>
-
+  <main>
       <Navbar />
       <Intro />
       <Mission />
       <Activities />
       <CollaborateCTA />
       <Footer />
+  </main>
     </>
   )
 }

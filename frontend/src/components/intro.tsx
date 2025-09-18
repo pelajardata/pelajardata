@@ -7,7 +7,7 @@ return <div id="intro">
           <a href="https://discord.gg/RCbsRxEj6X">Join Our Community</a>
         </div>
         </section>
-        <img src='public/illustrations/database.svg' alt="" />
+        <img src='/illustrations/database.svg' alt="" />
 </div>
 }
 export default intro;

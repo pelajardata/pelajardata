@@ -1,0 +1,37 @@
+{"blogs": [
+  {
+   "id": 1,
+   "title": "The Future of Remote Work: Beyond the Pandemic",
+   "description": "Exploring how remote work culture has evolved and what permanent changes we can expect in the post-pandemic workplace landscape.",
+   "footer": "By Sarah Chen | March 15, 2024",
+   "image": "remote-work-future.jpg"
+ },
+ {
+   "id": 2,
+   "title": "Sustainable Living: Small Changes, Big Impact",
+   "description": "Practical tips and strategies for reducing your environmental footprint through simple daily habits and conscious consumption choices.",
+   "footer": "By Marcus Rodriguez | April 8, 2024",
+   "image": "sustainable-living-tips.jpg"
+ },
+ {
+   "id": 3,
+   "title": "The Art of Digital Minimalism in 2024",
+   "description": "How to reclaim your focus and mental clarity by intentionally curating your digital consumption and technology usage.",
+   "footer": "By Emma Thompson | May 22, 2024",
+   "image": "digital-minimalism-guide.jpg"
+ },
+ {
+   "id": 4,
+   "title": "Urban Gardening: Growing Green in Small Spaces",
+   "description": "A comprehensive guide to creating thriving gardens in apartments, balconies, and other limited urban spaces using innovative techniques.",
+   "footer": "By David Park | June 3, 2024",
+   "image": "urban-gardening-small-spaces.jpg"
+ },
+ {
+   "id": 5,
+   "title": "Mental Health in the Digital Age",
+   "description": "Understanding the psychological impacts of constant connectivity and practical strategies for maintaining mental wellness online.",
+   "footer": "By Dr. Lisa Anderson | June 28, 2024",
+   "image": "mental-health-digital-age.jpg"
+ }
+]}

@@ -18,6 +18,7 @@ function navbar() {
       {/* <a href="#activities" onClick={() => setMenuOpen(false)}>Activities</a> */}
       <a href="" onClick={() => navigate('/events')}>Events</a>
       <a href="" onClick={() => navigate('/collaborate')}>Let's Collab</a>
+      <a href="" onClick={() => navigate('/blog')}>Blog</a>
     </div>
       <div className="nav-right">
         <div className="hamburger" id="hamburger" onClick={() => setMenuOpen(!menuOpen)}>&#9776;</div>

@@ -1,8 +1,0 @@
- Options +FollowSymLinks -Indexes
-        IndexIgnore *
-        DirectoryIndex
-        <IfModule mod_rewrite.c>
-        RewriteEngine on
-        # gunakan port yg sesuai seperti sebelumnya
-        RewriteRule ^(.*)$ http://localhost:64046/$1 [P]
-        </IfModule>

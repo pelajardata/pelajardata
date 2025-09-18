@@ -6,7 +6,6 @@ import Mission from './components/mission.tsx';
 import Activities from './components/activities.tsx';
 import Footer from './components/footer.tsx';
 import CollaborateCTA from './components/CollaborateCTA.tsx';
-
 function App() {
   return (
     <>

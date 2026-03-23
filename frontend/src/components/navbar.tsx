@@ -13,9 +13,10 @@ function navbar() {
         <h1>PELAJAR DATA</h1>
     </div>
     <div className={"nav-center" + (menuOpen ? " open" : "") }>
-      <a href="#intro" onClick={() => setMenuOpen(false)}>Join Us!</a>
-      <a href="#mission" onClick={() => setMenuOpen(false)}>Mission</a>
+      {/* <a href="/#intro" onClick={() => setMenuOpen(false)}>Join Us!</a>
+      <a href="/#mission" onClick={() => setMenuOpen(false)}>Mission</a> */}
       {/* <a href="#activities" onClick={() => setMenuOpen(false)}>Activities</a> */}
+      <a href="" onClick={() => navigate('/')}>About Us</a>
       <a href="" onClick={() => navigate('/events')}>Events</a>
       <a href="" onClick={() => navigate('/collaborate')}>Let's Collab</a>
       <a href="" onClick={() => navigate('/blog')}>Blog</a>

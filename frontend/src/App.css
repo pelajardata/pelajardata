@@ -431,7 +431,6 @@ footer #logo {
                     linear-gradient(90deg, rgba(255, 255, 255, 0.7) 1px, transparent 1px);
   background-size: 20px 20px; */
   min-height: calc(100vh - 80px);
-  padding: 60px 0;
   position: relative;
 }
 
@@ -475,8 +474,7 @@ footer #logo {
   font-size: 3rem;
   font-weight: 800;
   color: var(--blue-primer);
-  margin-bottom: 24px;
-  letter-spacing: -1px;
+  margin: 12px 0;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -496,8 +494,7 @@ footer #logo {
 }
 
 #collaborate-page p {
-  font-size: 1.25rem;
-  margin-bottom: 48px;
+  font-size: 1rem;
   color: #333;
   text-align: center;
   max-width: 800px;
@@ -538,7 +535,7 @@ footer #logo {
 
 .collaborate-card {
   background: #fff;
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: 0 8px 30px rgba(0,0,0,0.08);
   padding: 40px 32px;
   flex: 1 1 280px;
@@ -575,8 +572,8 @@ footer #logo {
 }
 
 .collaborate-card img {
-  width: 100px;
-  height: 100px;
+  /* width: 100px; */
+  /* height: 100px; */
   margin-bottom: 16px;
   transition: transform 0.3s ease;
 }
@@ -589,7 +586,7 @@ footer #logo {
   color: var(--accent-color);
   font-size: 1.6rem;
   font-weight: 700;
-  margin: 8px 0 16px;
+  /* margin: 8px 0 16px; */
   text-align: center;
 }
 
@@ -597,7 +594,7 @@ footer #logo {
   color: #444;
   margin-bottom: 24px;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 0.6rem;
 }
 
 .collaborate-card ul {
@@ -669,6 +666,10 @@ footer #logo {
 
 
 @media (max-width: 1458px) {
+  #navbar{
+    position: fixed;
+    width: 100%;
+  }
   #collaborate-cta button:hover {
     background: var(--accent-color);
     color: white;
@@ -682,9 +683,7 @@ footer #logo {
 font-size: 1.8vw;
     }
   }
-  #navbar{
-    position: sticky;
-  }
+  
   #logo {
     left: 50%;
     margin-left: 0;

@@ -34,7 +34,6 @@ const BlogPage = () => {
   useEffect(() => {
     getData();
   }, []);
-  console.log(blogs);
   return (
     <>
       <Navbar />

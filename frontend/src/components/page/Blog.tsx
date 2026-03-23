@@ -10,16 +10,26 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 import rehypeRaw from 'rehype-raw';
 
+interface BlogContent {
+  author: string;
+  date_published: string;
+  content: string;
+  title?: string;
+}
+
 const Blog = () => {
 
 // get the "/:id"
 const {id} = useParams()
-const [content, setContent] = useState({})
+const [content, setContent] = useState<BlogContent>({
+  author: '',
+  date_published: '',
+  content: '',
+})
 const getData = async ()=>{
     //fetch the data (what's the difference with axios?)
     const response = await fetch(`http://localhost:3000/blog/${id}`)
     const jsondata = await response.json()
-    console.log(jsondata)
     setContent(jsondata)
 }
 
